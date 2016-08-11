@@ -22,7 +22,6 @@ lmapp.controller('indexCtrl',['$scope',function($scope){
            var ContHeight = this.height*bili;
            $(".artical-cont").height(ContHeight+2);
            // var picWidth=$(pic).width();
-           console.log(this.height);
            var picWidth = ContWidth;
            var totalWidth=$(".hasPic").width();
            var remainWidth=(1-(picWidth/totalWidth));
