@@ -1,0 +1,15 @@
+<div class="container">
+    <div id="wrapper" class="lmjw wrapper">
+       <ul class="lmjm-nav">
+           <li class="on"><a href="">全部小组</a></li>
+           <li><a href="">热门小组</a></li>
+           <li><a href="">推荐小组</a></li>
+       </ul> 
+    </div>
+</div>
+<div class="lmjcont">
+    <div class="lmjcard" ng-repeat="i in lmjCont.lmjcard">
+        <img ng-src={{i.imgsrc}}>
+        <i>{{i.tags}}</i>
+    </div>
+</div>

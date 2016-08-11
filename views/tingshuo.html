@@ -1,0 +1,33 @@
+<div class="container">
+    <div id="wrapper" class="wrapper">
+       <ul>
+           <li class="on"><a href="">全部</a></li>
+           <li><a href="">国语</a></li>
+           <li><a href="">欧美</a></li>
+           <li><a href="">粤语</a></li>
+           <li><a href="">港台</a></li>
+           <li><a href="">流行</a></li>
+           <li><a href="">站务交流</a></li>
+       </ul> 
+    </div>
+    <tck></tck>
+</div>
+<div class="card" ng-repeat="i in cardCont.card">
+    <div class="card-head">
+        <img class="ch-img" ng-src={{i.headsrc}}>
+        <em>{{i.username}}</em>
+        <span class="ch-right">
+            <b></b>
+            <i class="ts">{{i.tags}}</i>
+        </span>
+    </div>
+    <div class="card-body">
+        <img class="card" ng-src={{i.cardsrc}} alt="">
+        <span>{{i.cont}}</span>
+        <i>{{i.num}}</i>
+    </div>
+    <div class="card-foot">
+        <b class="icon1"></b><i>{{i.zannum}}</i>
+        <b class="icon2"></b><i>{{i.wechatnum}}</i>
+    </div>
+</div>
