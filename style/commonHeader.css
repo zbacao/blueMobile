@@ -1,6 +1,8 @@
 /*导航菜单 start*/
 .header{
     background:#fff;
+    z-index: 100;
+    position: relative;
 }
 .menu,#logo,#other-link{
     height:90px;
@@ -67,11 +69,12 @@
 /*蒙版菜单*/
 .index-mengban{
     position:fixed;
-    top:90px;
+    top:0px;
     left:0;
     width:100%;
     height:100%;
     background:rgba(0,0,0,0.5);
+    z-index: 99;
 }
 .nav{
     position: absolute;
