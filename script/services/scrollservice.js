@@ -7,14 +7,13 @@ lmapp.service('scroll', function(){
                 scrollX:true,
                 scrollY:false
             });
-            
-                FastClick.attach(document.body);
-                $('#wrapper a').css({
-                    'line-height': $("#wrapper li").height()-2+'px'
-                });
-                $(".wrapper li").delegate("click",function(){
-                    $(this).addClass('on').siblings().removeClass('on');
-                });
+            FastClick.attach(document.body);
+            $('#wrapper a').css({
+                'line-height': $("#wrapper li").height()-2+'px'
+            });
+            $(".wrapper li").on("click",function(){
+                $(this).addClass('on').siblings().removeClass('on');
+            });
                 
         }
     });
