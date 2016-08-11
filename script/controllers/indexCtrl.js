@@ -9,13 +9,15 @@ lmapp.controller('indexCtrl',['$scope',function(scope){
     });
 
 //    文字块宽度和高度处理
-    $(function(){
-       var pic=$(".artical-summary-pic");
-       $(".artical-cont").height(pic.height()+2);
-       var picWidth=($(pic).width());
-       var totalWidth=$(".hasPic").width();
-       var remainWidth=(1-(picWidth/totalWidth));
-       $(".hasPic").width(remainWidth*100-3+"%");
-    })
+    // window.onload = function(){
+      setTimeout(function(){
+        var pic=$(".artical-summary-pic");
+        $(".artical-cont").height($(pic).height()+2);
+        var picWidth=($(pic).width());
+        var totalWidth=$(".hasPic").width();
+        var remainWidth=(1-(picWidth/totalWidth));
+        $(".hasPic").width(remainWidth*100-3+"%");
+      },300)
+    // }
     
 }])

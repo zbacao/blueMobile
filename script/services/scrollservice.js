@@ -12,7 +12,7 @@ lmapp.service('scroll', function(){
                 $('#wrapper a').css({
                     'line-height': $("#wrapper li").height()-2+'px'
                 });
-                $(".wrapper li").on("touchstart",function(){
+                $(".wrapper li").delegate("click",function(){
                     $(this).addClass('on').siblings().removeClass('on');
                 });
                 
