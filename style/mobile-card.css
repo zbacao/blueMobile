@@ -109,11 +109,13 @@ html{
             width: 36px;
         }
         .card-head .ts{
+            display: inline-block;
             border:1px solid #68b92e;
             border-radius: 20px;
             vertical-align: middle;
             padding: 3px 8px;
             color:#68b92e;
+            margin:5% 0;
         }
 
         .card-body{

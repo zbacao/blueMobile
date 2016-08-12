@@ -21,6 +21,10 @@
                 templateUrl: "views/lanmeijiang.html",
                 controller: "lmjCtrl"
             })
+            .when('/person',{
+                templateUrl:"views/personCenter.html",
+                controller:"personCenter"
+            })
             .otherwise({
                 redirectTo:"/index"
             });
