@@ -21,7 +21,7 @@ body{
 }
 .pb-header .backPrevPage{
     display:block;
-    width:15.625%;
+    width:32%;
     height: 90px;
     line-height:90px;
     position: relative;
@@ -37,7 +37,7 @@ body{
 }
 .pb-header h3{
     display:block;
-    width:68.75%;
+    width:34%;
     font-size:1.5em;
     line-height: 90px;
     color:#4eb17d;
@@ -45,7 +45,7 @@ body{
 }
 .pb-header .cate{
     display:block;
-    width:15.625%;
+    width:33.333%;
     font-size:1.25em;
     text-align:right;
     line-height:90px;
@@ -150,13 +150,13 @@ form{
     background: none;
     height: 40px;
     line-height: 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
 }
 @media screen and (max-width:420px) {
     .ipva{
-        width:170px;
-        font-size:12px;
+        width:210px;
+        font-size:15px;
     }
 }
 .i_inp{
@@ -189,13 +189,12 @@ form{
 }
 .upload-music-in .upload-music-tips{
     color:#109d59;
-    font-size:14px;
-    margin-right:40px;
+    font-size:16px;
 }
 @media screen and (max-width:420px){
     .upload-music-in .upload-music-tips{
-        font-size:12px;
-        margin-right:40px;
+        font-size:15px;
+        width:210px;
     }
 }
 .onloadMusicBtn{
@@ -232,7 +231,7 @@ form{
 #introduce_music{
     width: 100%;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 1em;
     resize: none;
     outline: none;
     border: none;
@@ -247,7 +246,7 @@ form{
     height:120px;
     padding-bottom:20px;
 }
-#publicBlog,#save{
+.publicBlog,.save{
     display:block;
     border-radius:30px;
     line-height:40px;
@@ -258,10 +257,10 @@ form{
     margin-top: 44px;
     height:40px;
 }
-#publicBlog{
+.publicBlog{
     background:#f68344;
 }
-#save{
+.save{
     background:#e0e0e0;
     color:#808080;
 }
@@ -269,6 +268,15 @@ form{
     margin:20px auto;
     text-align: center;
     vertical-align: middle;
+}
+.agreement a{
+    color:#109d59;
+}
+.selectAgreement{
+    width:32px;
+    height:32px;
+    border-radius:1px;
+    background:#fff;
 }
 /*返回上一页*/
 #backPrevPage:hover{

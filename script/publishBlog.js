@@ -2,8 +2,6 @@
  * Created by Administrator on 2016-07-27.
  */
 $(function() {
-    $("#txtEditor").Editor();
-
     //这里是富文本框里面的内容接口
     $("#publicBlog").on("click",function(){
         //获取富文本框里面的内容
@@ -165,6 +163,7 @@ $(function() {
         var width=$(window).width();
         $("#Editor_Editor").height(width/2);
         $("#introduce_music").height(width/2);
+
 });
 
 

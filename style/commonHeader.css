@@ -33,11 +33,6 @@
         vertical-align: -10px;
     }
 }
-/*@media screen and (max-width:375px) and (min-width:361px){*/
-    /*#logo img{*/
-        /*vertical-align: -11px;*/
-    /*}*/
-/*}*/
 @media screen and (max-width:413px) and (min-width:359px) {
     #logo img{
         vertical-align: -14px;

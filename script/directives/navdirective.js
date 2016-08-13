@@ -10,4 +10,4 @@ angular.module("mynav",[])
                 $(".login-btns-in").height($("body").width()*0.24);
             }
         }   
-    }]);
+    }])

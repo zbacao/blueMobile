@@ -56,11 +56,11 @@
         </div>
         <div class="submitBtn">
             <div class="publishBtns clearFix">
-                <button class="fl" id="publicBlog">发表帖子</button>
-                <button class="fr" id="save">保存草稿</button>
+                <button class="publicBlog fl" >发表帖子</button>
+                <button class="save fr">保存草稿</button>
             </div>
             <div class="agreement">
-                <input type="checkbox"/>
+                <input type="checkbox"/>   <!-- class="selectAgreement" -->
                 我已阅读并同意<a href="#">蓝莓派小组服务协议</a>
             </div>
         </div>
@@ -74,6 +74,6 @@
 <script src="script/libs/editor/editor.js"></script>
 <script src="script/publishBlog.js"></script>
 <script>
-
+    $("#txtEditor").Editor();
 </script>
 </html>

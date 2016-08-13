@@ -4,35 +4,35 @@ lmapp.controller('lmjCtrl',function($scope,scroll){
         lmjcard:[
                 {
                     imgsrc:"image/cardimg/summer.jpg",
-                    tags:"夏天",
+                    tags:"夏天"
                 },
                 {
                     imgsrc:"image/cardimg/dog.jpg",
-                    tags:"宠物",
+                    tags:"宠物"
                 },
                 {
                     imgsrc:"image/cardimg/summer.jpg",
-                    tags:"夏天",
+                    tags:"夏天"
                 },
                 {
                     imgsrc:"image/cardimg/dog.jpg",
-                    tags:"宠物",
+                    tags:"宠物"
                 },
                 {
                     imgsrc:"image/cardimg/summer.jpg",
-                    tags:"夏天",
+                    tags:"夏天"
                 },
                 {
                     imgsrc:"image/cardimg/dog.jpg",
-                    tags:"宠物",
+                    tags:"宠物"
                 },
                 {
                     imgsrc:"image/cardimg/summer.jpg",
-                    tags:"夏天",
+                    tags:"夏天"
                 },
                 {
                     imgsrc:"image/cardimg/dog.jpg",
-                    tags:"宠物",
+                    tags:"宠物"
                 }
             ]
         }

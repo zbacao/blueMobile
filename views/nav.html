@@ -1,4 +1,17 @@
 <div>
+<<<<<<< .mine
+    <div class="header clearFix">
+        <div id="nav-menu" class="fl"><div class="menu-btn" ng-click="flag=!flag"><i></i> <i></i><i></i></div></div>
+        <div id="logo" class="fl"><img src="image/cardimg/header-logo_03.png" alt="" /></div>
+        <div id="other-link" class="fl">
+           <div ng-controller="logoController">
+               <div class="p_set" ng-show={{logo}}>
+                   <img ng-src="image/images/perCen_03.png" alt=""/>
+               </div>
+           </div>
+        </div>
+    </div>
+||||||| .r176
     <div class="header clearFix">
         <div id="nav-menu" class="fl"><div class="menu-btn" ng-click="flag=!flag"><i></i> <i></i><i></i></div></div>
         <div id="logo" class="fl"><img src="image/cardimg/header-logo_03.png" alt="" /></div>
@@ -6,11 +19,13 @@
            <div data-logo ng-class=""></div>
         </div>
     </div>
+=======
+>>>>>>> .r181
     <div class="index-mengban" ng-show="flag" ng-click="flag = false"></div>
     <div class="nav" ng-show="flag">
         <ul class="clearFix">
             <li>
-                <a class="p-title nav-yz" href="#" ng-click="flag = !flag">
+                <a class="p-title nav-yz" href="#movement" ng-click="flag = !flag">
                     <span class="p-title-c">乐章 <i class="icon"></i></span>
                     <span class="p-title-e">MOVEMENT</span>
                 </a>
@@ -22,7 +37,7 @@
                 </a>
             </li>
             <li>
-                <a class="p-title nav-yq" href="#" ng-click="flag = !flag">
+                <a class="p-title nav-yq" href="#interesting" ng-click="flag = !flag">
                     <span class="p-title-c">乐趣<i class="icon"></i></span>
                     <span class="p-title-e">INTERESTING</span>
                 </a>
@@ -34,7 +49,7 @@
                 </a>
             </li>
             <li>
-                <a class="p-title nav-yj" href="#" ng-click="flag = !flag">
+                <a class="p-title nav-yj" href="#travelNote" ng-click="flag = !flag">
                     <span class="p-title-c">游记<i class="icon"></i></span>
                     <span class="p-title-e">TRAVELNOTE</span>
                 </a>

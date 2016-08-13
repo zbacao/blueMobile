@@ -25,10 +25,24 @@
                 templateUrl:"views/personCenter.html",
                 controller:"personCenter"
             })
+            .when('/movement', {
+                templateUrl: "views/movement.html",
+                controller: "movementCtrl"
+            })
+            .when('/interesting',{
+                templateUrl:"views/interesting.html",
+                controller:"interestingCtrl"
+            })
+            .when('/travelNote',{
+                templateUrl:"views/travelNote.html",
+                controller:"travelNoteCtrl"
+            })
             .otherwise({
                 redirectTo:"/index"
-            });
+            })
     }]);
+
+
 /*define(['lmapp'],function(lmapp){
     return lmapp.config(['$routeProvider',function($routeProvider){
         $routeProvider

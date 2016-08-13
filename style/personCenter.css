@@ -56,7 +56,7 @@ body{
     margin-top: 30px;
     margin-right: 5%;
     border: 1px solid #149247;
-    line-height: 2.5;
+    line-height: 38px;
     max-width:150px;
 }
 .p_person p{
@@ -186,7 +186,7 @@ body{
     display: inline-block;
     background: url("../image/images/perCen_21.png") no-repeat center;
     width: 26px;
-    height: 20px;
+    height: 22px;
     margin-top: 30px;
     margin-left: 12px;
 }
@@ -211,7 +211,7 @@ body{
     display: inline-block;
     background: url("../image/images/perCen_24.png") no-repeat center;
     width: 26px;
-    height: 20px;
+    height: 22px;
     margin-top: 30px;
     margin-left: 12px;
 }

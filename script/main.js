@@ -4,13 +4,13 @@ require.config({
     baseUrl: "script/",
     paths: {
         "jquery": "libs/jquery-2.1.1.min",
-        "zepto": "libs/zepto.min",
-        "touch": "libs/touch",
+        //"zepto": "libs/zepto.min",
+        //"touch": "libs/touch",
         "angular": "libs/angular.min",
         "angular-route": "libs/angular-route.min",
         "swiper": "libs/swiper-3.3.1.jquery.min",
         
-        "popbtn": "directives/popbtn",
+        //"popbtn": "directives/popbtn",
 
         "route": "routes/route",
 
