@@ -20,6 +20,7 @@ lmapp.controller('tsCtrl',function($scope,scroll){
     $scope.cardCont={
         card:[
                 {
+                    id:1,
                     headsrc:"image/cardimg/userhead.png",
                     username:"碧池大大",
                     tags:"小时光",
@@ -30,6 +31,7 @@ lmapp.controller('tsCtrl',function($scope,scroll){
                     wechatnum:22
                 },
                 {
+                    id:2,
                     headsrc:"image/cardimg/userhead.png",
                     username:"碧池大大",
                     tags:"小时光",
@@ -40,6 +42,7 @@ lmapp.controller('tsCtrl',function($scope,scroll){
                     wechatnum:22
                 },
                 {
+                    id:1,
                     headsrc:"image/cardimg/userhead.png",
                     username:"碧池大大",
                     tags:"小时光",

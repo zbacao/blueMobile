@@ -246,7 +246,7 @@ form{
     height:120px;
     padding-bottom:20px;
 }
-.publicBlog,.save{
+.publicBlog, .save{
     display:block;
     border-radius:30px;
     line-height:40px;

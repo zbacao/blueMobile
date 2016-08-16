@@ -50,6 +50,13 @@
     /*position: relative;*/
     /*top:-40px;*/
 }
+.menu-btn{
+    transition:transform 1s linear;
+    width:28px;
+}
+.menu-btn:active{
+    transform: rotate(180deg);
+}
 .menu-btn i{
     width:30px;
     height:4px;

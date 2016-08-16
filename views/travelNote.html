@@ -10,69 +10,58 @@
 <div class="details-container">
     <div class="song-introduce clearFix">
         <div class="song-details fl">
-            <div class="song-pic"><img src="" alt=""/></div>
+            <div class="song-pic"><img ng-src={{pageData.song_module.song_pic}} alt=""/></div>
         </div>
         <div class="song-info fr">
-            <div class="song-title"><a href="#" id="song_title"></a></div>
-            <div class="play-num mt"><span id="play_num"></span>播放</div>
+            <div class="song-title"><a href="#" id="song_title">{{pageData.song_module.song_title}}</a></div>
+            <div class="play-num mt"><span id="play_num">{{pageData.song_module.play_num}}</span>播放</div>
             <div class="publisher mt">发布者:<span id="publisher">伍小宸</span></div>
             <div class="song-control mt">
                 <!--开始设置播放器-->
                 <div class="playutil">
-                    <audio id="aud" >
-                        <!--<source src=""/>您的浏览器不支持 audio 元素。-->
+                    <audio id="aud" ng-src={{pageData.song_module.song_source}}>
+
                     </audio>
                     <!--播放按钮-->
                     <div class="control clearFix">
                         <div class="buttons">
-                            <!--预留上一曲按钮-->
-                            <!--<a id="nextleftbtn" onMou seOver="overchangleft()" onMo useOut="outchangleft()" onclick="nextleft()">-->
-                            <!--<img id="leftbutton" src="indexImg/play-btn_03.png"/>-->
-                            <!--</a>-->
                             <a id="playbtn" onMo useOver="overchangplay()" onMouse Out="outchangplay()">
-                                <img id="playbutton" src=""/>
+                                <img id="playbutton" src="image/indeximg/commonImg/mobile_14.png"/>
                             </a>
-                            <!--预留下一曲按钮-->
-                            <!--<a id="nextrightbtn" onMou seOver="overchangright()" onMous eOut="outchangright()" onclick="nextright()">-->
-                            <!--<img id="rightbutton" src="indexImg/play-btn_03.png"/>-->
-                            <!--</a>-->
+
                         </div>
-                        <!--<p id="passTime">00:00</p>-->
-                        <!--<div class="progressBar clearFix">-->
-                        <!--<div class="progressBar-passed"></div>-->
-                        <!--<div class="progressBar-remain"></div>-->
-                        <!--</div>-->
-                        <!--<p id="totalTime">00:00</p>-->
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="song-intro-cont"></div>
+    <div class="song-intro-cont">{{pageData.song_module.song_intro_cont}}</div>
     <div class="common-deatails">
         <div class="artical-cont">
             <div class="yj-artical">
-                <h3></h3>
+                <h3>{{pageData.artical.artical_title}}</h3>
                 <div class="yj-artical-info clearFix">
                     <div class="eye-wechat">
-                        <span id="eye_num" class="eye-wechat-num"></span>
-                        <span id="wei_chat_num" class="eye-wechat-num"></span>
+                        <span id="eye_num" class="eye-wechat-num">{{pageData.artical.wei_chat_num}}</span>
+                        <span id="wei_chat_num" class="eye-wechat-num">{{pageData.artical.eye_num}}</span>
                     </div>
                     <div class="create-time">
-                        创建时间 : <span class="currentDate"></span>
+                        创建时间 : <span class="currentDate">{{pageData.artical.artical_create_time}}</span>
                     </div>
                 </div>
             </div>
             <div class="artical-cont-details">
                 <div class="blog-details" id="blog_details">
                     <div class="user-pre-cont">
-                     <!-- 这里面是后台取过来的文章数据-->
-                        <!--现在是假数据-->
-                        <span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">音乐是一种奇妙的东西，紧张时它可以让你变轻松，烦恼时它可以让你变愉快。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">你会陶醉在音乐的世界，我喜欢听舒情的歌曲，有感情的歌曲，</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">每次听歌的时候，就会静静地听，</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">觉得自己很幸福能来到这个世界，让我听到如此美秒的音乐。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">音乐可以让我从悲伤中走出来，不管心情多烂，只要听到音乐心情自然渐渐好起来。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">也许我天生就喜欢音乐吧。音乐总是让我陶醉在美丽的世界。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">曾经听到这一首歌，《丁香花》写作者对死去的思念。每一次听到这首歌时。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">我都静静用心听，听到人与人之间的真情。人与人的思念之情。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">每一句歌词都深深的刻在心上，音乐带给我快乐，音乐是一种灵魂：</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">我敬佩欣赏音乐的人。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">我对音乐的执着永远都不会改变。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"></span><br/><img src="image/indeximg/commonImg/mobile_25.png" alt=""><br/><img src="image/indeximg/commonImg/mobile_27.png" alt=""><br/><img src="image/indeximg/commonImg/mobile_29.png" alt="">
+                        <!-- 这里面是后台取过来的文章数据-->
+                        {{articalCont}}
                     </div>
-                    <div class="blog-labels">
+                    <div class="blog-labels clearFix">
                         <!--这里面是来自后台的标签-->
+                        <div class="fl" ng-repeat="m in pageData.labels">
+                            <span>{{m}}</span>
+                        </div>
                     </div>
                     <div class="endIcon">
                         <img src="image/indeximg/commonImg/mobile_32.png" alt="endIcon" />

@@ -1,6 +1,6 @@
 <div>
     <div class="index-mengban" ng-show="flag" ng-click="flag = false"></div>
-    <div class="nav" ng-show="flag">
+    <div class="nav slide-down" ng-if="flag">
         <ul class="clearFix">
             <li>
                 <a class="p-title nav-yz" href="#movement" ng-click="flag = !flag">
@@ -59,8 +59,9 @@
         </ul>
         <div class="login-btns">
             <div class="login-btns-in clearFix">
-                <button class="reg fl">注册</button>
-                <button class="login fr">登录</button>
+
+                <a href="#register"><button class="reg fl">注册</button></a>
+                <a href="#login"><button class="login fr">登录</button></a>
             </div>
         </div>
     </div>

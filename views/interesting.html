@@ -10,57 +10,42 @@
 <div class="details-container">
     <div class="song-introduce clearFix">
         <div class="song-details fl">
-            <div class="song-pic"><img src="" alt=""/></div>
+            <div class="song-pic"><img ng-src={{pageData.song_module.song_pic}} alt=""/></div>
         </div>
         <div class="song-info fr">
-            <div class="song-title"><a href="#" id="song_title"></a></div>
-            <div class="play-num mt"><span id="play_num"></span>播放</div>
+            <div class="song-title"><a href="#" id="song_title">{{pageData.song_module.song_title}}</a></div>
+            <div class="play-num mt"><span id="play_num">{{pageData.song_module.play_num}}</span>播放</div>
             <div class="publisher mt">发布者:<span id="publisher">伍小宸</span></div>
             <div class="song-control mt">
                 <!--开始设置播放器-->
                 <div class="playutil">
-                    <audio id="aud" >
-                        <!--<source src=""/>您的浏览器不支持 audio 元素。-->
+                    <audio id="aud" ng-src={{pageData.song_module.song_source}}>
                     </audio>
                     <!--播放按钮-->
                     <div class="control clearFix">
                         <div class="buttons">
-                            <!--预留上一曲按钮-->
-                            <!--<a id="nextleftbtn" onMou seOver="overchangleft()" onMo useOut="outchangleft()" onclick="nextleft()">-->
-                            <!--<img id="leftbutton" src="indexImg/play-btn_03.png"/>-->
-                            <!--</a>-->
                             <a id="playbtn" onMo useOver="overchangplay()" onMouse Out="outchangplay()">
-                                <img id="playbutton" src=""/>
+                                <img id="playbutton" src="image/indeximg/commonImg/mobile_14.png"/>
                             </a>
-                            <!--预留下一曲按钮-->
-                            <!--<a id="nextrightbtn" onMou seOver="overchangright()" onMous eOut="outchangright()" onclick="nextright()">-->
-                            <!--<img id="rightbutton" src="indexImg/play-btn_03.png"/>-->
-                            <!--</a>-->
                         </div>
-                        <!--<p id="passTime">00:00</p>-->
-                        <!--<div class="progressBar clearFix">-->
-                        <!--<div class="progressBar-passed"></div>-->
-                        <!--<div class="progressBar-remain"></div>-->
-                        <!--</div>-->
-                        <!--<p id="totalTime">00:00</p>-->
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="song-intro-cont"></div>
+    <div class="song-intro-cont">{{pageData.song_module.song_intro_cont}}</div>
     <div class="common-deatails">
         <div class="artical-cont">
             <div class="yj-artical">
-                <h3></h3>
+                <h3>{{pageData.artical.artical_title}}</h3>
                 <div class="yj-artical-info clearFix">
                     <div class="eye-wechat">
-                        <span id="eye_num" class="eye-wechat-num"></span>
-                        <span id="wei_chat_num" class="eye-wechat-num"></span>
+                        <span id="eye_num" class="eye-wechat-num">{{pageData.artical.wei_chat_num}}</span>
+                        <span id="wei_chat_num" class="eye-wechat-num">{{pageData.artical.eye_num}}</span>
                     </div>
                     <div class="create-time">
-                        创建时间 : <span class="currentDate"></span>
+                        创建时间 : <span class="currentDate">{{pageData.artical.artical_create_time}}</span>
                     </div>
                 </div>
             </div>
@@ -68,11 +53,13 @@
                 <div class="blog-details" id="blog_details">
                     <div class="user-pre-cont">
                         <!-- 这里面是后台取过来的文章数据-->
-                        <!--现在是假数据-->
-                        <span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">不知道多少人来到大理不想离开，也不知道多少人走了之后又想着回来。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">这就是大理，庸懒散拖，但又不失韵味。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">你可以窝在人民路晒太阳发呆，也可以骑着单车，沿着黄海西路，穿过一个个小村落，在洱海边听风观渔。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">大理有很多玩法，好像都和待着有关。但你可曾想过如此近距离的接近洱海？</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">当你泛舟洱海的时候，你会发现云离你好近，苍山也近在咫尺，此时，眼前的一切都是属于你的，就像一个梦，</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">我们划着桨，不愿离开，也不想醒来。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">阿男给了我们一个亲近洱海的机会，也给了我们待着一个特惠的价格。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">这里你不必担心大理旺季烦扰的人声鼎沸，更不用顾虑人山人海的景区客流，这里有一片美丽的海，有一艘简</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">单的皮划艇，你可以在这里待着，什么都不想，也无人来打扰。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">我们可以在洱海上随波逐流，不用跟着人潮，拥挤在古城的洋人街与复兴路。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">希望这片海能给你夏日一份安宁，希望这次体验可以给你带来意外的收获。</span><br style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;"><span style="font-family: &quot;Microsoft YaHei&quot;, Arial, Helvetica, sans-serif; color: rgb(102, 102, 102); letter-spacing: 2px; line-height: 25px;">其实大理很美，只是我们忘了发现。</span><br/><img src="image/indeximg/commonImg/mobile_25.png" alt=""><br/><img src="image/indeximg/commonImg/mobile_27.png" alt=""><br/><img src="image/indeximg/commonImg/mobile_29.png" alt="">
+                      {{articalCont}}
                     </div>
-                    <div class="blog-labels">
+                    <div class="blog-labels clearFix">
                         <!--这里面是来自后台的标签-->
+                        <div class="fl" ng-repeat="m in pageData.labels">
+                            <span>{{m}}</span>
+                        </div>
                     </div>
                     <div class="endIcon">
                         <img src="image/indeximg/commonImg/mobile_32.png" alt="endIcon" />

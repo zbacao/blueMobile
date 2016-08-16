@@ -92,6 +92,7 @@ textarea{
     display:block;
     visibility: hidden;
     clear:both;
+    height: 0;
 }
 .fl{
     float:left;

@@ -37,9 +37,26 @@
                 templateUrl:"views/travelNote.html",
                 controller:"travelNoteCtrl"
             })
+            .when('/jamDetails',{
+                templateUrl:"views/jamDetails.html",
+                controller:"jamDetails"
+            })
+            .when('/tsdetail/:id',{
+                templateUrl: "views/tsdetail.html",
+                controller: "tsdCtrl"
+            })
+            .when('/login',{
+                templateUrl:"views/login.html",
+                controller:"login"
+            })
+            .when('/register',{
+                templateUrl:"views/register.html",
+                controller:"register"
+            })
             .otherwise({
                 redirectTo:"/index"
             })
+
     }]);
 
 

@@ -185,7 +185,7 @@ body{
 /*板块标题及图标  start**********/
 .p-title{
     width:100%;
-    margin:0 auto 40px;
+    margin:0 auto 30px;
     display:block;
     text-align:center;
     color: #292929;
@@ -193,9 +193,11 @@ body{
 }
 .p-title .p-title-c{
     font-size:1.28em;
+    /*font-weight:700;*/
     margin:0 auto 5px;
     position:relative;
     width:100px;
+    color:#333;
     display:block;
 }
 .p-title .icon{
@@ -255,6 +257,7 @@ body{
     text-align: center;
     width:45%;
     height:31.8%;
+    min-height:32px;
     margin-top: 10%;
     border-radius:5px;
     font-size: 1.2em;
