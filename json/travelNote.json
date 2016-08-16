@@ -35,19 +35,39 @@
   "zan_num":45,
   "who_zan":[
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     }
   ],
@@ -55,8 +75,16 @@
   "comment":[
     {
       "user_icon":"image/indeximg/commonImg/touxiang.png",
-      "user_name":"小夏同学",
-      "comment_time":"2014-12-01 16:16:20",
+      "user_name":"小夏同学1",
+      "comment_time":"5/23 16:15",
+      "comment_cont":"内地流行双人组合[牛奶咖啡]，不久前为新专辑MV的拍摄，专程来到了龙井一所大房",
+      "comment_zan":34,
+      "comment_look":51
+    },
+    {
+      "user_icon":"image/indeximg/commonImg/touxiang.png",
+      "user_name":"小夏同学2",
+      "comment_time":"5/23 16:15",
       "comment_cont":"内地流行双人组合[牛奶咖啡]，不久前为新专辑MV的拍摄，专程来到了龙井一所大房",
       "comment_zan":34,
       "comment_look":51
@@ -64,15 +92,7 @@
     {
       "user_icon":"image/indeximg/commonImg/touxiang.png",
       "user_name":"小夏同学",
-      "comment_time":"2014-12-01 16:16:20",
-      "comment_cont":"内地流行双人组合[牛奶咖啡]，不久前为新专辑MV的拍摄，专程来到了龙井一所大房",
-      "comment_zan":34,
-      "comment_look":51
-    },
-    {
-      "user_icon":"image/indeximg/commonImg/touxiang.png",
-      "user_name":"小夏同学",
-      "comment_time":"2014-12-01 16:16:20",
+      "comment_time":"5/23 16:15",
       "comment_cont":"内地流行双人组合[牛奶咖啡]，不久前为新专辑MV的拍摄，专程来到了龙井一所大房",
       "comment_zan":34,
       "comment_look":51
@@ -82,10 +102,10 @@
   "comment_num":65,
   "concern_num":170,
   "other_articals":[
-    "你适可而止 抽身而退的样子特别特别的帅,简直帅到没朋友!",
-    "你适可而止 抽身而退的样子特别特别的帅,简直帅到没朋友!",
-    "你适可而止 抽身而退的样子特别特别的帅,简直帅到没朋友!",
-    "你适可而止 抽身而退的样子特别特别的帅,简直帅到没朋友!"
+    "你适可而止 简直帅到没朋友!",
+    "你适可而止 简直帅到没朋友!",
+    "你适可而止 简直帅到没朋友!",
+    "你适可而止 简直帅到没朋友!"
   ],
   "hot_recomment":[
     "端午徒步武功山，看山看草看云海。",

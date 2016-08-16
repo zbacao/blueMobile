@@ -100,11 +100,11 @@
                 <b class="icon1"></b><i>{{songarray.jccomment.comment1.zan}}</i>
                 <b class="icon2"></b><i>{{songarray.jccomment.comment1.replay}}</i>
             </div>
-        </div>
-        <div class="secreply" ng-show="secshow1">
-            <div class="sr-cont">
-                <input type="text">
-                <a ng-click="secshow1=false">回复</a>
+            <div class="secreply slide-down" ng-if="secshow1">
+                <div class="sr-cont">
+                    <input type="text">
+                    <a ng-click="secshow1=false">回复</a>
+                </div>
             </div>
         </div>
         <div class="reply-cont" ng-click="secshow2=!secshow2">
@@ -118,11 +118,11 @@
                 <b class="icon1"></b><i>{{songarray.jccomment.comment2.zan}}</i>
                 <b class="icon2"></b><i>{{songarray.jccomment.comment2.replay}}</i>
             </div>
-        </div>
-        <div class="secreply" ng-show="secshow2">
-            <div class="sr-cont">
-                <input type="text">
-                <a ng-click="secshow2=false">回复</a>
+            <div class="secreply slide-down" ng-if="secshow2">
+                <div class="sr-cont">
+                    <input type="text">
+                    <a ng-click="secshow2=false">回复</a>
+                </div>
             </div>
         </div>
     </div>
@@ -138,11 +138,11 @@
                 <b class="icon1"></b><i>{{songarray.zxcomment.comment1.zan}}</i>
                 <b class="icon2"></b><i>{{songarray.zxcomment.comment1.replay}}</i>
             </div>
-        </div>
-        <div class="secreply" ng-show="newshow1">
-            <div class="sr-cont">
-                <input type="text">
-                <a ng-click="secshow2=false">回复</a>
+            <div class="secreply slide-down" ng-if="newshow1">
+                <div class="sr-cont">
+                    <input type="text">
+                    <a ng-click="secshow2=false">回复</a>
+                </div>
             </div>
         </div>
         <div class="reply-cont" ng-click="newshow2=!newshow2">
@@ -156,13 +156,14 @@
                 <b class="icon1"></b><i>{{songarray.zxcomment.comment2.zan}}</i>
                 <b class="icon2"></b><i>{{songarray.zxcomment.comment2.replay}}</i>
             </div>
-        </div>
-        <div class="secreply" ng-show="newshow2">
-            <div class="sr-cont">
-                <input type="text">
-                <a ng-click="secshow2=false">回复</a>
+            <div class="secreply slide-down" ng-if="newshow2">
+                <div class="sr-cont">
+                    <input type="text">
+                    <a ng-click="secshow2=false">回复</a>
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 <div class="otherpub">

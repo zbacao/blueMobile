@@ -1,6 +1,6 @@
 lmapp.service('scroll', function(){
     this.iscroll=function(){
-        var myscroll;
+        var myScroll;
         myScroll = new IScroll("#wrapper",{
             mouseWheel: true,
             scrollbars:false,
