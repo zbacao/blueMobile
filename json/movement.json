@@ -35,19 +35,39 @@
   "zan_num":45,
   "who_zan":[
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     },
     {
-      "zan_icon":"image/indeximg/commonImg/dog.jpg",
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
+      "zan_name":"许西"
+    },
+    {
+      "zan_icon":"image/travelnote/zanhead.png",
       "zan_name":"许西"
     }
   ],

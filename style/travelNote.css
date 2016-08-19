@@ -202,6 +202,7 @@
 }
 .zan-list li img{
     width: 100%;
+    border-radius: 50%;
 }
 .zan-list li p{
     width: 100%;

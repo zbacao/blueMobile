@@ -96,9 +96,11 @@ textarea{
 }
 .fl{
     float:left;
+    display:inline;
 }
 .fr{
     float:right;
+    display:inline;
 }
 .in-bl{
     display:inline-block;

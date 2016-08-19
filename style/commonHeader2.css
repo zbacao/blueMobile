@@ -32,10 +32,3 @@
         vertical-align: -25px;
     }
 }
-.menu-btn{
-    transition:transform 1s linear;
-    width:28px;
-}
-.menu-btn:active{
-    transform: rotate(180deg);
-}

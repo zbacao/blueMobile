@@ -1,4 +1,4 @@
-<div class="header2 clearFix">
+﻿<div class="header2 clearFix">
     <div id="nav-menu" class="fl"><div class="menu-btn" ng-click="flag=!flag"><i></i> <i></i><i></i></div></div>
     <div id="logo" class="fl"><img src="image/indeximg/commonImg/mobile_03.png" alt="" /></div>
     <div id="other-link" class="fl">
@@ -43,7 +43,7 @@
             </div>
             <div id="wrapper" class="wrapper">
                 <ul class="zan-list">
-                    <li ng-repeat="k in pageData.who_zan track by $index">
+                    <li ng-repeat="k in pageData.who_zan track by $index" repeat-finished-render>
                         <img ng-src="{{k.zan_icon}}" alt="">
                         <p>{{k.zan_name}}</p>
                     </li>

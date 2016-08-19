@@ -1,5 +1,6 @@
 
 lmapp.controller('llCtrl',function($scope,scroll){
+        scroll.iscroll();
         // 先把数据都写成死的
         $scope.cardCont={
             card:[
@@ -21,5 +22,4 @@ lmapp.controller('llCtrl',function($scope,scroll){
                     }
                 ]
             }
-        scroll.iscroll();
     });

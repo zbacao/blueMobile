@@ -53,6 +53,10 @@
                 templateUrl:"views/register.html",
                 controller:"register"
             })
+            .when('/personSet',{
+                templateUrl:"views/personSet.html",
+                controller:"personSet"
+            })
             .otherwise({
                 redirectTo:"/index"
             })

@@ -36,6 +36,7 @@ html{
             display: inline-block;
             font-size: 120%;
             height: 96%;
+            line-height:68px;
             padding: 0 22%;
             border-bottom: 3px solid transparent;
             vertical-align: middle;
